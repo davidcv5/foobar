@@ -17,5 +17,3 @@ def answer(x, y, z):
         return '%02d/%02d/%02d' % (mm, dd, yy)
     else:
         return 'Ambiguous'
-
-print answer(1, 32, 1)
